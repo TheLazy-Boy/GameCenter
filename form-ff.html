@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pemesanan Joki - Free Fire</title>
+    <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+    <header>
+        <h1>Pemesanan Joki - Free Fire</h1>
+        <a href="joki.html" class="btn-back">Kembali</a>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Isi Data Pemesanan</h2>
+            <form action="submit-ff.php" method="POST">
+                <label for="username">Username Game:</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan username Anda" required>
+
+                <label for="current-rank">Rank Saat Ini:</label>
+                <input type="text" id="current-rank" name="current-rank" placeholder="Contoh: Platinum" required>
+
+                <label for="target-rank">Rank Target:</label>
+                <input type="text" id="target-rank" name="target-rank" placeholder="Contoh: Heroic" required>
+
+                <label for="contact">Nomor WhatsApp:</label>
+                <input type="text" id="contact" name="contact" placeholder="Masukkan nomor WhatsApp Anda" required>
+
+                <label for="notes">Catatan Tambahan:</label>
+                <textarea id="notes" name="notes" rows="4" placeholder="Tuliskan catatan tambahan (opsional)"></textarea>
+
+                <button type="submit" class="btn-submit">Kirim Pesanan</button>
+            </form>
+            <p style="margin-top: 20px; text-align: center; font-size: 14px; color: #555;">
+                Untuk info lebih lanjut hubungi no ini: <strong>+62 822 1708 1499</strong>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Game Center. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
